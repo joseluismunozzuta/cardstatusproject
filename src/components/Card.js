@@ -53,8 +53,9 @@ const Card = () => {
     return (
 
         <>
-            <div className='flex flex-row justify-center m-16'>
-                <div className="card h-96 w-96 bg-base-100 shadow-xl m-16">
+            <div className='md:flex md:flex-row md:justify-center md:m-16 max-sm:flex-col max-sm:py-8 sm:gap-8'>
+                <div className="card md:h-96 md:w-96 bg-base-100 shadow-xl md:m-16 max-sm:m-auto max-sm:h-96 max-sm:w-80 max-sm:my-8
+                sm:m-auto sm:h-72 sm:w-80 sm:my-8">
                     <figure><img src="https://firebasestorage.googleapis.com/v0/b/static-images-ee67c.appspot.com/o/jose.jpg?alt=media&token=4c53d5d2-0c0d-4006-aba8-9b85c3cdb22c" alt="Shoes" /></figure>
                     <div className="card-body">
                         <p>Extrañándote a montones!</p>
@@ -66,7 +67,8 @@ const Card = () => {
 
                 </div>
 
-                <div className="card h-96 w-96 bg-base-100 shadow-xl m-16">
+                <div className="card md:h-96 md:w-96 bg-base-100 shadow-xl md:m-16 max-sm:m-auto max-sm:h-96 max-sm:w-80 max-sm:my-8
+                sm:m-auto sm:h-72 sm:w-80 sm:my-8">
                     <figure><img src="https://firebasestorage.googleapis.com/v0/b/static-images-ee67c.appspot.com/o/IMG-20230503-WA0025.jpg?alt=media&token=f4acca6b-d54d-4b7f-ac34-6d87f834b58d" alt="Shoes" /></figure>
                     <div className="card-body">
                         <p></p>
